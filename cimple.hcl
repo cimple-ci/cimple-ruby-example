@@ -7,7 +7,7 @@ description = "Example using Cimple with Ruby"
 version = "0.0.1"
 
 env {
-  PATH = "{{index .HostEnvVar \"PATH\"}}"
+  PATH = "{{index .HostEnv \"PATH\"}}"
 }
 
 task test {

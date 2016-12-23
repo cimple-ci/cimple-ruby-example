@@ -17,6 +17,6 @@ task test {
   }
 
   script test {
-    body = "rake"
+    body = "bundle exec rake"
   }
 }
